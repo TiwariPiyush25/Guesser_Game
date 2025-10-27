@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 class Guesser{
@@ -86,10 +87,10 @@ public class Guesser_Game {
         System.out.println("Enter the number of Rounds You want to Play :");
         int n = sc.nextInt();
 
-        int i=0;
+        int r=0;
         System.out.println("<----- Game Started ----->");
-        while (i++<n) {
-            System.out.println("Round "+ (i));
+        while (r++ < n) {
+            System.out.println("Round "+ (r));
             Umpire ump = new Umpire();
             ump.CollectNumFromGuesser();
             ump.CollectNumFromPlayer();
@@ -99,4 +100,3 @@ public class Guesser_Game {
         System.out.println("<----- Game Over ----->");
     }
 }
-
