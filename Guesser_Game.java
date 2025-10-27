@@ -1,6 +1,4 @@
-package project;
-
-import java.util.Scanner;
+import java.util.*;
 
 class Guesser{
     int GuesserNum;
@@ -101,3 +99,4 @@ public class Guesser_Game {
         System.out.println("<----- Game Over ----->");
     }
 }
+
